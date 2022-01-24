@@ -79,6 +79,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+ 
 }
 
 /* Make images easier to work with */
@@ -757,6 +758,7 @@ main {
 body {
   background-size: cover;
   background-position: bottom center;
+  background-color:hsl(--clr-dark)
   
 }
 /* home */
