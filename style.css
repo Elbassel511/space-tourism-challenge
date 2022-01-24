@@ -758,7 +758,7 @@ main {
 body {
   background-size: cover;
   background-position: bottom center;
-  background-color:hsl(--clr-dark)
+  background-color:hsl(var(--clr-dark));
   
 }
 /* home */
