@@ -79,7 +79,6 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
- 
 }
 
 /* Make images easier to work with */
@@ -300,7 +299,7 @@ ul {
   display: grid;
   z-index: 1;
   place-items: center;
-  padding: 0 clamp(2em, 5vw, 5em);
+  padding: 0 1em ;
   border-radius: 50%;
   aspect-ratio: 1;
   text-decoration: none;
@@ -643,7 +642,8 @@ main {
 }
 .grid-container-crew picture {
   
-  max-width : 60%;
+  max-width : 90%;
+  align-self:bottom ;
  
 }
 
